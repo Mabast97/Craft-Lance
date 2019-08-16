@@ -59,6 +59,15 @@ button.search-button:hover{
     width: 280px;
 }
 
+input[type=text]{
+    color: black;
+}
+
+input[type=text]:hover{
+    color: black;
+}
+
+
 
 
 /*     COMMUNITY SIGN UP SECTION    */
@@ -204,6 +213,10 @@ button.search-button:hover{
     border-bottom: 1.5px solid lightgray;
 }
 
+.a{ 
+    box-shadow: 1px 1px 15px 1px #7e7979;
+}
+
 @media only screen and (max-width: 576px){
 .long-button-on-small-sizes{
     width: 75%;
@@ -212,7 +225,7 @@ button.search-button:hover{
 }
 
 .a{
-    background-color: rgb(243, 240, 240);
+    background-color: rgb(243, 240, 240); 
 }
 }
 
@@ -247,6 +260,10 @@ button.search-button:hover{
 
 #hey li a{
     color: rgb(75, 73, 73);
+}
+
+#hey li{
+    line-height: 35px;
 }
 
 @media only screen and (max-width: 1200px)
